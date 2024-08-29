@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.box1 , .box2 , .box3 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    color: white;
+    line-height: 100px;
+    text-align: center;
+}
+
+.box1{
+    background-color: yellow;
+}
+
+.box2{
+    background-color: yellowgreen;
+}
+
+.box3{
+    background-color: greenyellow;
+}
